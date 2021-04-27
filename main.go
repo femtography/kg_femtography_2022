@@ -1,6 +1,11 @@
 package main
 
+import (
+  "os"
+)
+
 func main() {
+  args := os.Args[1:]
   r_val := ""
   counter := 0;
   hashy := map[string]string {
