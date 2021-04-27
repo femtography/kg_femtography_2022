@@ -16,5 +16,14 @@ def main(argv):
         "9" : "Nine"
     }
 
+    while counter < len(argv):
+        arg = argv[counter];
+        for val in arg:
+            final_print = final_print + dict[val];
+
+        final_print = final_print + ",";
+
+        counter += 1;
+
 if __name__ == "__main__":
    main(sys.argv[1:])
