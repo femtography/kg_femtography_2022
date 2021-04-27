@@ -26,5 +26,7 @@ def main(argv):
 
         counter += 1;
 
+    print(final_print)
+
 if __name__ == "__main__":
    main(sys.argv[1:])
