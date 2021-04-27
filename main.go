@@ -1,6 +1,7 @@
 package main
 
 import (
+  "fmt"
   "os"
 )
 
@@ -20,4 +21,5 @@ func main() {
     "8" : "Eight",
     "9" : "Nine",
   }
+  fmt.Println(args)
 }
