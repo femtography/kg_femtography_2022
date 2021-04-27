@@ -21,7 +21,8 @@ def main(argv):
         for val in arg:
             final_print = final_print + dict[val];
 
-        final_print = final_print + ",";
+        if counter != len(argv) - 1:
+            final_print = final_print + ",";
 
         counter += 1;
 
